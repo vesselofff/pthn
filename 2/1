@@ -1,56 +1,121 @@
-1.
-a = 5
-b = 5.1
-c = True
-d = "hi"
-e = None
+# 1.
+# in1 = int(input("Vvedite num 1:"))
+# in2 = int(input("Vvedite num 2:"))
+# print(in1 + in2)
+# print(in1 * in2)
+# print(in1 - in2)
+# print(in1 ** in2)
+# print(in1 / in2)
+# print(in1 % in2)
 
-print(type(a),type(b),type(c), type(d), type(e))
+# 2.
 
-2.
+# side = int(input("Vvedite storonu kvadrata:"))
 
-age = int("23")
-foo = "23abc"
-number = int(foo,16)
-age = bool("23abc")
-flag = bool(1)
-str_one = bool("Privet")
-str_two = bool("")
-zero = bool(0)
-one = bool(1)
-stra = str(False)
+# s = side **2
+# print(s)
+
+# 3.
+
+# A = int(input("Vvedite storuny A:"))
+# B = int(input("Vvedite storuny B:"))
+# C = int(input("Vvedite storuny C:"))
+# print(f"AC = {abs(C-A)}, BC = {abs(C-B)}, Sum = {abs((C-A)+(C-B))}")
+
+# 4.
+
+# num = input("Vvedite 4hznach chislo:")
+# if len(num) != 4:
+#     print("Error not 4 znach")
+
+# else:
+#     palindrom = num == num[::-1]
+# if palindrom:
+#        print(f"Verno {palindrom}")
+# else:
+#     print("Ne verno")
 
 
-3.
+# 5.
 
-age = 36.6
-temperature = 25
-age, temperatute = temperature, age
+# A = int(input("Vvedite kaef1:"))
+# B = int(input("Vvedita kaef2:"))
+# if A == 0:
+#     print("Err")
+# else:
+#     result  = -A/B
+#     print(result)
 
-4.
+# 6.
 
-x = 10
-y = 15
-z = 2
+# A = int(input("Vvedite A"))
+# if A % 2 == 0:
+#     print(True)
+# elif A % 2 != 0:
+#     print(False)
 
-if x > y and x > z:
-    print("Большее значение:", x)
 
-elif y > x and y > z:
-    print("Большее значение:", y)
+# 7.
 
-else:
-    print("Большее значение:", z)
+# months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# num = int(input("Vvedite mesyac"))
 
-x = 77
-y = 9
-z = 130
+# if num in [12, 1, 2]:
+#     print("Winter")
+# elif num in [3, 4, 5]:
+#     print("Spring")
+# elif num in [6, 7, 8]:
+#     print("Summer")
+# else:
+#     print("Autumn")
 
-if x > y and x > z:
-    print("Большее значение:", x)
 
-elif y > x and y > z:
-    print("Большее значение:", y)
+# 8.
 
-else:
-    print("Большее значение:", z)
+# nomer = int(input("Vvedite nomer ot 1-5"))
+# mass = float(input("Vvedite massu"))
+
+# bok = {
+#     1: 1,
+#     2: 0.000001,
+#     3: 0.001,
+#     4: 1000,
+#     5: 10
+# }
+
+# if nomer in bok:
+#     result = mass*bok[nomer]
+#     print(f"Massa b kg {result}")
+# else:
+#     print("Err")
+
+
+# 9.
+
+# def year_name(year: int):
+
+#     animals = [
+#         "крысы", "коровы", "тигра", "зайца", "дракона", "змеи",
+#         "лошади", "овцы", "обезьяны", "курицы", "собаки", "свиньи"
+#     ]
+
+#     colors = ["зеленый", "красный", "желтый", "белый", "черный" ]
+
+#     baseyr = 1984
+
+#     smesh = year - baseyr
+
+#     animals_inx = smesh % 12
+#     colors_inx = smesh % 5
+
+#     animal = animals[animals_inx]
+#     color = colors[colors_inx]
+
+#     return f"{color} {animal}"
+
+# try:
+#   useryr = int(input("Vvedite god: "))
+#   result = year_name(useryr)
+#   print(f"{useryr} year is year of {result}")
+# except ValueError:
+#   print("Err")
