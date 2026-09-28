@@ -1,0 +1,10 @@
+age = int("23")
+foo = "23abc"
+number = int(foo,16)
+age = bool("23abc")
+flag = bool(1)
+str_one = bool("Privet")
+str_two = bool("")
+zero = bool(0)
+one = bool(1)
+stra = str(False)
